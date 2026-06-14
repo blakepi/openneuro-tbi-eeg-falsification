@@ -1,0 +1,12 @@
+evidence_stream,dataset,supports_candidate,weakens_candidate,manuscript_use,interpretation,display_score,source
+D1 original/resting aperiodic candidate,ds003522,weak_initial_signal,exact original rows unavailable; artifact-controlled rerun attenuated,"background/rationale only, not a confirmatory result",historical signal discovery anchor only,1,outputs/final/d1_d2_d3_evidence_matrix.csv
+D1 artifact-trimmed acute mTBI,ds003522,no,yes,primary cautionary result,null-leaning after artifact control,-1,outputs/final/d1_d2_d3_evidence_matrix.csv
+D1 strict artifact-clean branch,ds003522,no,yes,artifact-control limitation and sensitivity note,"quality-control branch, not interpretable as a group result",-1,outputs/final/d1_d2_d3_evidence_matrix.csv
+D3 eyes-closed alpha/IAF,ds003522,no,yes,negative sensitivity endpoint,null/non-supportive,-1,outputs/final/d1_d2_d3_evidence_matrix.csv
+chronic TBI exploratory branch,ds003522,weak_context_only,batch caveat prevents proof,separate exploratory subsection,exploratory context only,-0.5,outputs/final/d1_d2_d3_evidence_matrix.csv
+ds003490 pipeline rehearsal,ds003490,no,not_applicable,methods/QC comparator only if needed,methods rehearsal/comparator,0,outputs/final/d1_d2_d3_evidence_matrix.csv
+D2 ds005114 DPX cue-baseline,ds005114,weak_partial,insufficient alone,"bounded falsification result, not validation",weak/context-specific supportive trace,0.5,outputs/final/d1_d2_d3_evidence_matrix.csv
+D2 ds005114 task-average,ds005114,no,yes,negative/generalization check,weakens robust convergence narrative,-1,outputs/final/d1_d2_d3_evidence_matrix.csv
+D2 ds003523 VWM task-average,ds003523,no,yes,negative/generalization check,does not support robust convergence,-1,outputs/final/d1_d2_d3_evidence_matrix.csv
+D2 mixed-effects models,ds005114+ds003523,no,yes,bounded falsification result,no robust cross-task group convergence,-1,outputs/final/d1_d2_d3_evidence_matrix.csv
+D2 within-subject stability/direction consistency,ds005114+ds003523,measurement_only,does not support disease specificity,methods/reliability context,"useful reliability context, not group confirmation",-0.25,outputs/final/d1_d2_d3_evidence_matrix.csv

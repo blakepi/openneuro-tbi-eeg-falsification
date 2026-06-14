@@ -1,0 +1,51 @@
+check_name,pass,severity,details
+audit_gate_pass,True,critical,"{""critical_failures"": [], ""final_files_checked"": [""<LOCAL_PROJECT_ROOT>\\reports\\35_d2_bounded_falsification_report.md"", ""<LOCAL_PROJECT_ROOT>\\reports\\36_integrated_d1_d2_d3_final_decision_report.md"", ""<LOCAL_PROJECT_ROOT>\\reports\\16_updated_final_recommendation.md"", ""<LOCAL_PROJECT_ROOT>\\reports\\11_d1_d2_d3_continuation_status.md"", ""<LOCAL_PROJECT_ROOT>\\reports\\28_d1_d3_post_analysis_audit.md"", ""<LOCAL_PROJECT_ROOT>\\reports\\29_next_step_decision_after_d1_d3.md"", ""<LOCAL_PROJECT_ROOT>\\outputs\\d2_cross_task\\d2_falsification_summary.csv"", ""<LOCAL_PROJECT_ROOT>\\outputs\\d2_cross_task\\d2_within_dataset_group_effects.csv"", ""<LOCAL_PROJECT_ROOT>\\outputs\\d2_cross_task\\d2_direction_consistency.csv"", ""<LOCAL_PROJECT_ROOT>\\outputs\\d2_cross_task\\d2_within_subject_stability.csv"", ""<LOCAL_PROJECT_ROOT>\\outputs\\d2_cross_task\\d2_mixed_effects_models.csv"", ""<LOCAL_PROJECT_ROOT>\\outputs\\download_recovery\\ds005114_retrieval_verification.csv"", ""<LOCAL_PROJECT_ROOT>\\outputs\\download_recovery\\ds003523_retrieval_verification.csv"", ""<LOCAL_PROJECT_ROOT>\\outputs\\download_recovery\\d2_raw_download_summary.csv"", ""<LOCAL_PROJECT_ROOT>\\logs\\run_log.jsonl""], ""gate"": ""PASS"", ""next_prompt_allowed"": true, ""safe_to_continue"": true, ""timestamp"": ""2026-06-13T18:48:50-04:00"", ""warnings"": []}"
+Figure 1_png_path_exists,True,critical,outputs/final_figures/figure1_workflow_dataset_structure.png
+Figure 1_svg_path_exists,True,critical,outputs/final_figures/figure1_workflow_dataset_structure.svg
+Figure 1_pdf_path_exists,True,critical,outputs/final_figures/figure1_workflow_dataset_structure.pdf
+Figure 1_source_data_path_exists,True,critical,outputs/final_figure_source_data/figure1_workflow_dataset_structure_source.csv
+Figure 2_png_path_exists,True,critical,outputs/final_figures/figure2_d1_artifact_attenuation.png
+Figure 2_svg_path_exists,True,critical,outputs/final_figures/figure2_d1_artifact_attenuation.svg
+Figure 2_pdf_path_exists,True,critical,outputs/final_figures/figure2_d1_artifact_attenuation.pdf
+Figure 2_source_data_path_exists,True,critical,outputs/final_figure_source_data/figure2_d1_artifact_attenuation_source.csv
+Figure 3_png_path_exists,True,critical,outputs/final_figures/figure3_artifact_branch_sample_retention.png
+Figure 3_svg_path_exists,True,critical,outputs/final_figures/figure3_artifact_branch_sample_retention.svg
+Figure 3_pdf_path_exists,True,critical,outputs/final_figures/figure3_artifact_branch_sample_retention.pdf
+Figure 3_source_data_path_exists,True,critical,outputs/final_figure_source_data/figure3_artifact_branch_sample_retention_source.csv
+Figure 4_png_path_exists,True,critical,outputs/final_figures/figure4_d3_eyes_closed_alpha_iaf.png
+Figure 4_svg_path_exists,True,critical,outputs/final_figures/figure4_d3_eyes_closed_alpha_iaf.svg
+Figure 4_pdf_path_exists,True,critical,outputs/final_figures/figure4_d3_eyes_closed_alpha_iaf.pdf
+Figure 4_source_data_path_exists,True,critical,outputs/final_figure_source_data/figure4_d3_eyes_closed_alpha_iaf_source.csv
+Figure 5_png_path_exists,True,critical,outputs/final_figures/figure5_d2_cross_task_falsification.png
+Figure 5_svg_path_exists,True,critical,outputs/final_figures/figure5_d2_cross_task_falsification.svg
+Figure 5_pdf_path_exists,True,critical,outputs/final_figures/figure5_d2_cross_task_falsification.pdf
+Figure 5_source_data_path_exists,True,critical,outputs/final_figure_source_data/figure5_d2_cross_task_falsification_source.csv
+Figure 6_png_path_exists,True,critical,outputs/final_figures/figure6_final_evidence_matrix.png
+Figure 6_svg_path_exists,True,critical,outputs/final_figures/figure6_final_evidence_matrix.svg
+Figure 6_pdf_path_exists,True,critical,outputs/final_figures/figure6_final_evidence_matrix.pdf
+Figure 6_source_data_path_exists,True,critical,outputs/final_figure_source_data/figure6_final_evidence_matrix_source.csv
+Table 1_csv_path_exists,True,critical,outputs/final_tables/table1_dataset_cohort_overview.csv
+Table 1_md_path_exists,True,critical,outputs/final_tables/table1_dataset_cohort_overview.md
+Table 2_csv_path_exists,True,critical,outputs/final_tables/table2_analysis_families_interpretation_rules.csv
+Table 2_md_path_exists,True,critical,outputs/final_tables/table2_analysis_families_interpretation_rules.md
+Table 3_csv_path_exists,True,critical,outputs/final_tables/table3_key_results_summary.csv
+Table 3_md_path_exists,True,critical,outputs/final_tables/table3_key_results_summary.md
+Table 4_csv_path_exists,True,critical,outputs/final_tables/table4_claims_caveats_traceability.csv
+Table 4_md_path_exists,True,critical,outputs/final_tables/table4_claims_caveats_traceability.md
+Table S1_csv_path_exists,True,critical,outputs/final_tables/tableS1_deliverable_manifest_summary.csv
+Table S1_md_path_exists,True,critical,outputs/final_tables/tableS1_deliverable_manifest_summary.md
+Figure 1_source_data_exists,True,critical,outputs/final_figure_source_data/figure1_workflow_dataset_structure_source.csv
+Figure 2_source_data_exists,True,critical,outputs/final_figure_source_data/figure2_d1_artifact_attenuation_source.csv
+Figure 3_source_data_exists,True,critical,outputs/final_figure_source_data/figure3_artifact_branch_sample_retention_source.csv
+Figure 4_source_data_exists,True,critical,outputs/final_figure_source_data/figure4_d3_eyes_closed_alpha_iaf_source.csv
+Figure 5_source_data_exists,True,critical,outputs/final_figure_source_data/figure5_d2_cross_task_falsification_source.csv
+Figure 6_source_data_exists,True,critical,outputs/final_figure_source_data/figure6_final_evidence_matrix_source.csv
+chronic_batch_sensitive_caveat,True,critical,required manuscript caveat present
+ds003490_comparator_caveat,True,critical,required manuscript caveat present
+d2_overlap_caveat,True,critical,required manuscript caveat present
+d1_d3_null_leaning_caveat,True,critical,required manuscript caveat present
+no_positive_overclaim_phrases_in_new_reports,True,critical,"no positive overclaim phrases found in reports 45, 45a, or 47"
+no_raw_data_writes,True,critical,"written paths restricted to reports, logs, outputs/final_figures, outputs/final_tables, outputs/final_figure_source_data, and QC markers"
+no_existing_machine_readable_result_edits,True,critical,source data and manifests were newly generated; existing final numeric result CSVs were not overwritten
+no_active_download_or_model_processes_detected,True,critical,no active download/model command lines matched blocked terms
+no_new_analysis_executed,True,critical,"generator used existing consolidated outputs only and did not call extraction, model, download, or raw-data commands"

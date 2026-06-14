@@ -1,0 +1,6 @@
+table_id,title,csv_path,md_path,source_files
+Table 1,Dataset and cohort overview,outputs/final_tables/table1_dataset_cohort_overview.csv,outputs/final_tables/table1_dataset_cohort_overview.md,outputs/download_recovery/*.csv
+Table 2,Analysis families and interpretation rules,outputs/final_tables/table2_analysis_families_interpretation_rules.csv,outputs/final_tables/table2_analysis_families_interpretation_rules.md,outputs/qc/d1_d3_model_family_audit.csv; outputs/d2_cross_task/*.csv
+Table 3,Key results summary,outputs/final_tables/table3_key_results_summary.csv,outputs/final_tables/table3_key_results_summary.md,outputs/qc/final_result_consistency_checks.csv; reports/35_d2_bounded_falsification_report.md
+Table 4,"Claims, caveats, and traceability",outputs/final_tables/table4_claims_caveats_traceability.csv,outputs/final_tables/table4_claims_caveats_traceability.md,outputs/final/manuscript_claim_allowlist.csv; outputs/final/manuscript_claim_blocklist.csv
+Table S1,Compressed deliverable manifest summary,outputs/final_tables/tableS1_deliverable_manifest_summary.csv,outputs/final_tables/tableS1_deliverable_manifest_summary.md,outputs/final/final_deliverable_manifest.csv

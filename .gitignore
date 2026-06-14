@@ -1,0 +1,16 @@
+# Raw/private/local data exclusions
+data/raw/
+**/*.fdt
+**/*.set
+**/.git/annex/
+**/annex/
+.venv/
+tools/
+logs/
+*.log
+*.tmp
+*.bak
+__pycache__/
+.pytest_cache/
+.DS_Store
+Thumbs.db

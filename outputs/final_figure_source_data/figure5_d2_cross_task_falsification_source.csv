@@ -1,0 +1,5 @@
+metric_group,label,dataset,task_window,fdr_q,max_abs_hedges_g,direction_match_rate,count_metric,interpretation,source
+fdr_q,DPX cue-baseline,ds005114,cue_locked_baseline_2s,0.0897955626310483,0.5277489285227807,,,weak/context-specific trace,outputs/d2_cross_task/d2_within_dataset_group_effects.csv
+fdr_q,DPX task-average,ds005114,task_average_4s,0.152437772789846,0.4955104001352396,0.7708333333333334,,directional but non-FDR-supportive,outputs/d2_cross_task/d2_falsification_summary.csv
+fdr_q,VWM task-average,ds003523,task_average_4s,0.4720436818021432,0.3668765787780524,0.6458333333333334,,directional but non-FDR-supportive,outputs/d2_cross_task/d2_falsification_summary.csv
+mixed_model,Mixed-model group terms,ds005114+ds003523,integrated,0.4664787068393616,,,0,0 group terms below q<0.10,outputs/d2_cross_task/d2_mixed_effects_models.csv

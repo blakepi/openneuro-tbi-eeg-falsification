@@ -1,0 +1,44 @@
+{
+  "title": "Artifact-sensitive resting EEG candidate signals in public traumatic brain injury datasets: an OpenNeuro falsification analysis",
+  "upload_type": "publication",
+  "publication_type": "article",
+  "description": "Sanitized code and derived-artifact release for a null-leaning, artifact-sensitive OpenNeuro EEG falsification analysis in public TBI datasets.",
+  "creators": [
+    {
+      "name": "Pierpoint, Gregory",
+      "orcid": "https://orcid.org/0000-0001-8288-8549",
+      "affiliation": "Macon & Joan Brock Virginia Health Sciences Eastern Virginia Medical School at Old Dominion University, Norfolk, VA, USA"
+    }
+  ],
+  "access_right": "open",
+  "keywords": [
+    "mild traumatic brain injury",
+    "EEG",
+    "OpenNeuro",
+    "artifact sensitivity",
+    "reproducibility",
+    "falsification"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds003522.v1.1.0",
+      "relation": "cites",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005114.v1.0.0",
+      "relation": "cites",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003523.v1.1.0",
+      "relation": "cites",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003490.v1.1.0",
+      "relation": "cites",
+      "scheme": "doi"
+    }
+  ]
+}

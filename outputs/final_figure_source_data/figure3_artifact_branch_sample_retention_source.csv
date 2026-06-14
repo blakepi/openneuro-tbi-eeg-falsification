@@ -1,0 +1,4 @@
+artifact_branch,possible_recording_conditions,included_recording_conditions,excluded_recording_conditions,median_usable_epoch_fraction,mean_usable_epoch_fraction
+all_epochs,398,398,0,1.0,1.0
+artifact_trim_ptp95,398,398,0,0.9333333333333332,0.9333679395091274
+artifact_clean_ptp250uv,398,4,394,0.0,0.0056293985562939665

@@ -1,0 +1,8 @@
+panel,label,effect_metric,value,value_note,source
+effect_size,Original prompt anchor,"abs(Hedges g), prose range midpoint",0.88,execution-prompt anchor range approx 0.80 to 0.96; exact local rows unavailable,reports/28_d1_d3_post_analysis_audit.md; D1_D2_D3_AI_execution_prompt.md
+effect_size,All epochs rerun,max abs(Hedges g) across key trace rows,0.5269496021712308,computed from existing d1_d3_key_effect_trace.csv,outputs/qc/d1_d3_key_effect_trace.csv
+effect_size,ptp95 artifact trim,max abs(Hedges g) across key trace rows,0.612737459806377,computed from existing d1_d3_key_effect_trace.csv,outputs/qc/d1_d3_key_effect_trace.csv
+q_value,All epochs broad family,Benjamini-Hochberg q,0.8265156088591296,broad D1 family,outputs/qc/d1_d3_model_family_audit.csv
+q_value,ptp95 broad family,Benjamini-Hochberg q,0.7876020805555347,broad artifact-controlled D1 family,outputs/qc/final_result_consistency_checks.csv
+q_value,ptp95 narrow prior anchor,transparency-family q,0.132043075104885,exploratory only; not a claim rescue,outputs/qc/d1_d3_model_family_audit.csv
+branch_status,Strict 250 uV branch,model feasibility,nan,too few recording-condition rows for group inference,outputs/qc/d1_d3_artifact_branch_sample_counts.csv

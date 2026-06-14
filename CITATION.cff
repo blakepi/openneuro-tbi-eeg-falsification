@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this analysis package, please cite the repository and the manuscript."
+title: "Artifact-sensitive resting EEG candidate signals in public traumatic brain injury datasets: an OpenNeuro falsification analysis"
+authors:
+  - family-names: "Pierpoint"
+    given-names: "Gregory"
+    orcid: "https://orcid.org/0000-0001-8288-8549"
+affiliation: "Macon & Joan Brock Virginia Health Sciences Eastern Virginia Medical School at Old Dominion University, Norfolk, VA, USA"
+url: "https://github.com/blakepi/openneuro-tbi-eeg-falsification"
+date-released: "2026-06-14"
+keywords:
+  - mild traumatic brain injury
+  - EEG
+  - OpenNeuro
+  - artifact sensitivity
+  - reproducibility
+  - falsification

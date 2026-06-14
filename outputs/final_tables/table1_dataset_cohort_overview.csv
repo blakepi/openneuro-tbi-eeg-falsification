@@ -1,0 +1,5 @@
+dataset_id,analysis_role,task_or_state,set_count,fdt_count,paired_count,missing_fdt_count,size_gib,mne_read_status,manuscript_caveat
+ds003522,D1/D3 TBI primary source,resting/oddball EEG with eyes-open and eyes-closed branches,200,200,200,0,25.35,3/3 passed,acute mTBI primary; chronic TBI remains separate and batch-sensitive
+ds005114,D2 bounded cross-task check,DPX,223,223,223,0,55.86,3/3 passed,D2 overlaps by Original_ID; not independent cohort evidence
+ds003523,D2 bounded cross-task check,visual working memory,221,221,221,0,37.53,3/3 passed,D2 overlaps by Original_ID; not independent cohort evidence
+ds003490,comparator and pipeline rehearsal only,rest/oddball comparator,75,75,75,0,5.843,5/5 passed,not a TBI dataset and not evidence for a TBI claim

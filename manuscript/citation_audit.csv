@@ -1,0 +1,33 @@
+manuscript_file,section,citation_marker,reference_id,reference_present,in_text_present,reference_list_present,numeric_style_ok,issue,pass
+main_manuscript.md,Introduction,<sup>1</sup>,R01,True,True,True,True,,True
+main_manuscript.md,Introduction,"<sup>13,14</sup>",R13,True,True,True,True,,True
+main_manuscript.md,Introduction,"<sup>13,14</sup>",R14,True,True,True,True,,True
+main_manuscript.md,Study Design and Scope,"<sup>2,6</sup>",R02,True,True,True,True,,True
+main_manuscript.md,Study Design and Scope,"<sup>2,6</sup>",R06,True,True,True,True,,True
+main_manuscript.md,Study Design and Scope,<sup>2</sup>,R02,True,True,True,True,,True
+main_manuscript.md,Study Design and Scope,"<sup>3,4,7</sup>",R03,True,True,True,True,,True
+main_manuscript.md,Study Design and Scope,"<sup>3,4,7</sup>",R04,True,True,True,True,,True
+main_manuscript.md,Study Design and Scope,"<sup>3,4,7</sup>",R07,True,True,True,True,,True
+main_manuscript.md,Study Design and Scope,"<sup>5,8</sup>",R05,True,True,True,True,,True
+main_manuscript.md,Study Design and Scope,"<sup>5,8</sup>",R08,True,True,True,True,,True
+main_manuscript.md,Datasets and Participants,<sup>2</sup>,R02,True,True,True,True,,True
+main_manuscript.md,Datasets and Participants,<sup>3</sup>,R03,True,True,True,True,,True
+main_manuscript.md,Datasets and Participants,<sup>4</sup>,R04,True,True,True,True,,True
+main_manuscript.md,Datasets and Participants,<sup>5</sup>,R05,True,True,True,True,,True
+main_manuscript.md,EEG Preprocessing and Feature Extraction,<sup>10</sup>,R10,True,True,True,True,,True
+main_manuscript.md,EEG Preprocessing and Feature Extraction,<sup>11</sup>,R11,True,True,True,True,,True
+main_manuscript.md,ds003490 Comparator/Pipeline Rehearsal,"<sup>5,8</sup>",R05,True,True,True,True,,True
+main_manuscript.md,ds003490 Comparator/Pipeline Rehearsal,"<sup>5,8</sup>",R08,True,True,True,True,,True
+main_manuscript.md,Statistical Analysis,<sup>12</sup>,R12,True,True,True,True,,True
+main_manuscript.md,Reproducibility and Audit Procedures,"<sup>1,9</sup>",R01,True,True,True,True,,True
+main_manuscript.md,Reproducibility and Audit Procedures,"<sup>1,9</sup>",R09,True,True,True,True,,True
+main_manuscript.md,Relation to TBI EEG and Aperiodic EEG Literature,"<sup>6,7,11,13,14</sup>",R06,True,True,True,True,,True
+main_manuscript.md,Relation to TBI EEG and Aperiodic EEG Literature,"<sup>6,7,11,13,14</sup>",R07,True,True,True,True,,True
+main_manuscript.md,Relation to TBI EEG and Aperiodic EEG Literature,"<sup>6,7,11,13,14</sup>",R11,True,True,True,True,,True
+main_manuscript.md,Relation to TBI EEG and Aperiodic EEG Literature,"<sup>6,7,11,13,14</sup>",R13,True,True,True,True,,True
+main_manuscript.md,Relation to TBI EEG and Aperiodic EEG Literature,"<sup>6,7,11,13,14</sup>",R14,True,True,True,True,,True
+main_manuscript.md,Data Availability,<sup>1-5</sup>,R01,True,True,True,True,,True
+main_manuscript.md,Data Availability,<sup>1-5</sup>,R02,True,True,True,True,,True
+main_manuscript.md,Data Availability,<sup>1-5</sup>,R03,True,True,True,True,,True
+main_manuscript.md,Data Availability,<sup>1-5</sup>,R04,True,True,True,True,,True
+main_manuscript.md,Data Availability,<sup>1-5</sup>,R05,True,True,True,True,,True
