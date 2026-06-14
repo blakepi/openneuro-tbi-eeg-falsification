@@ -1,32 +1,30 @@
-# Submission Readiness Checklist
+# Submission Readiness Checklist v2
 
-## Newly Completed in Metadata/Reference Pass
+## Complete
 
 - Author name: complete (Gregory Pierpoint, B.S.).
 - Email: complete (pierpogb@odu.edu).
 - ORCID: complete (https://orcid.org/0000-0001-8288-8549).
-- Preliminary affiliation: complete (Macon & Joan Brock Virginia Health Sciences Eastern Virginia Medical School at Old Dominion University, Norfolk, VA, USA).
+- Affiliation: complete (Macon & Joan Brock Virginia Health Sciences Eastern Virginia Medical School at Old Dominion University, Norfolk, VA, USA).
 - Funding statement: complete (No external funding).
 - Competing interests statement: complete (The author declares no competing interests).
-- Ethics/public-data statement: complete (publicly available, deidentified OpenNeuro data; not human-subjects research for the present analysis).
+- Ethics/public-data statement: complete.
 - Author contributions: complete for single-author CRediT-style draft.
-- Automated numbered reference list: complete, with dataset citation checks queued.
+- Numbered reference list: complete.
 - Citation audit: complete.
-- Editorial/scientific review: complete.
-- Journal format gap check: complete.
+- Editorial/scientific review v2: complete.
+- Journal format gap check v2: complete.
 - Public code repository URL: complete (https://github.com/blakepi/openneuro-tbi-eeg-falsification).
 
-## Human Verification Still Needed
+## Still Needed
 
-- Final institutional wording as it should appear in the submission portal and author proofs.
-- Final author order if coauthors are added.
-- Final reference verification against Sage Vancouver style and OpenNeuro preferred dataset citations.
-- Final article type confirmation: Null Hypothesis article versus Regular Manuscript.
-- PI/coauthor review if applicable.
-- Final figure resolution check for submission portal requirements.
+- Final human check of ds003522 and ds003490 OpenNeuro citation wording.
+- Final author approval before submission.
+- Final figure resolution/format check for the submission portal.
 - Final table formatting check for journal style.
 - Final DOCX conversion if the journal requires Word format.
-- Final Zenodo DOI after a GitHub release is archived, if desired.
+- Final Zenodo authorization/DOI decision.
+- Final GitHub release only if an archived release DOI is desired.
 
 ## Claim-Control Checks to Preserve
 

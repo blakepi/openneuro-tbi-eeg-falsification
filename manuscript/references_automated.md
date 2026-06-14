@@ -1,12 +1,12 @@
 # Automated References
 
-Numbered provisional reference list in order of first appearance. Final Sage Vancouver style verification is still recommended before submission.
+Numbered provisional reference list in order of first appearance. PubMed, Crossref/DOI, local BIDS metadata, and DataCite were used where available. OpenNeuro dataset entries with metadata quirks remain flagged in the verification queue.
 
 1. Markiewicz CJ, Gorgolewski KJ, Feingold F, Blair R, Halchenko YO, Miller E, et al. The OpenNeuro resource for sharing of neuroscience data. eLife. 2021;10:e71774. doi:10.7554/eLife.71774.
-2. Cavanagh JF, Quinn D. EEG: Three-Stim Auditory Oddball and Rest in Acute and Chronic TBI [dataset]. OpenNeuro; version 1.1.0. doi:10.18112/openneuro.ds003522.v1.1.0.
-3. Cavanagh JF. EEG: DPX Cog Ctl Task in Acute Mild TBI [dataset]. OpenNeuro; version 1.0.0. doi:10.18112/openneuro.ds005114.v1.0.0.
-4. Cavanagh JF. EEG: Visual Working Memory in Acute TBI [dataset]. OpenNeuro; version 1.1.0. doi:10.18112/openneuro.ds003523.v1.1.0.
-5. Cavanagh JF. EEG: 3-Stim Auditory Oddball and Rest in Parkinson's [dataset]. OpenNeuro; version 1.1.0. doi:10.18112/openneuro.ds003490.v1.1.0.
+2. Cavanagh JF, Quinn D. EEG: Three-Stim Auditory Oddball and Rest in Acute and Chronic TBI [dataset]. OpenNeuro. 2021. Version 1.1.0. doi:10.18112/openneuro.ds003522.v1.1.0.
+3. Cavanagh JF. EEG: DPX Cog Ctl Task in Acute Mild TBI [dataset]. OpenNeuro. 2024. Version 1.0.0. doi:10.18112/openneuro.ds005114.v1.0.0.
+4. Cavanagh JF. EEG: Visual Working Memory in Acute TBI [dataset]. OpenNeuro. 2021. Version 1.1.0. doi:10.18112/openneuro.ds003523.v1.1.0.
+5. Cavanagh JF. EEG: 3-Stim Auditory Oddball and Rest in Parkinson's [dataset]. OpenNeuro. 2021. Version 1.1.0. doi:10.18112/openneuro.ds003490.v1.1.0.
 6. Cavanagh JF, Wilson JK, Rieger RE, Gill D, Broadway JM, Story Remer JH, et al. ERPs predict symptomatic distress and recovery in sub-acute mild traumatic brain injury. Neuropsychologia. 2019;132:107125. doi:10.1016/j.neuropsychologia.2019.107125.
 7. Cavanagh JF, Rieger RE, Wilson JK, Gill D, Fullerton L, Brandt E, et al. Joint analysis of frontal theta synchrony and white matter following mild traumatic brain injury. Brain Imaging Behav. 2020;14(6):2210-2223. doi:10.1007/s11682-019-00171-y.
 8. Cavanagh JF, Kumar P, Mueller AA, Richardson SP, Mueen A. Diminished EEG habituation to novel events effectively classifies Parkinson's patients. Clin Neurophysiol. 2018;129(2):409-418. doi:10.1016/j.clinph.2017.11.023.

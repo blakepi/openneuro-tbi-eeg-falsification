@@ -54,3 +54,7 @@
 Author metadata, affiliation wording, funding, competing interests, ethics/public-data wording, and provisional references were inserted on 2026-06-14T12:55:45-04:00. The affiliation spelling uses the ODU public spelling "Macon & Joan Brock Virginia Health Sciences." Dataset citations for OpenNeuro accessions remain flagged for final human verification of preferred dataset citation style and release dates.
 
 The manuscript must continue to avoid claims of validated biomarker, diagnostic biomarker, clinical deployment, independent validation, confirmed replication, proven EEG signature, or robust positive marker. The public repository URL may be cited only after the GitHub repository exists.
+
+## Editorial Revision v2 Guardrail
+
+The v2 revision improved flow and public-repository integration without changing scientific conclusions. The manuscript remains a public-data, artifact-sensitive, null-leaning reproducibility/falsification report. It should not be reframed as a positive marker paper. The GitHub repository is public at https://github.com/blakepi/openneuro-tbi-eeg-falsification; Zenodo DOI wording must wait until an actual archived release DOI exists.

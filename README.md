@@ -30,3 +30,8 @@ This is a null-leaning, artifact-sensitive, reproducibility-oriented public-data
 ## Zenodo
 
 No Zenodo DOI is included yet. After final reference verification, enable the GitHub-Zenodo repository integration or provide a Zenodo token, create a GitHub release, and insert the minted DOI into the manuscript.
+
+
+## Editorial/reference v2
+
+The manuscript package was updated for minor editorial flow, reference verification, and public repository integration. Zenodo DOI remains pending and no GitHub release has been published.

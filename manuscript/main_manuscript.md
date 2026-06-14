@@ -2,25 +2,25 @@
 
 ## Abstract
 
-See `abstract.md` for the structured abstract. In brief, this manuscript reports a public OpenNeuro EEG reanalysis in which an initially plausible resting EEG candidate signal in mild traumatic brain injury attenuated under artifact-control and was only partially supported by bounded cross-task testing.
+See `abstract.md` for the structured abstract. In brief, this manuscript reports a public OpenNeuro EEG reanalysis in which initially plausible resting EEG differences in mild traumatic brain injury attenuated under artifact-control and were only partially supported by bounded cross-task testing.
 
 ## Introduction
 
-Mild traumatic brain injury (mTBI) is common, clinically heterogeneous, and difficult to summarize with a single neurophysiological endpoint. EEG is attractive for public-data reanalysis because it is inexpensive relative to many imaging modalities, temporally precise, and available in multiple OpenNeuro datasets.<sup>1</sup> At the same time, scalp EEG is highly sensitive to artifact, task context, preprocessing decisions, and participant overlap across repeated recordings.<sup>13,14</sup> These properties make transparent falsification especially important before any candidate signal is treated as robust.
+Mild traumatic brain injury (mTBI) is common, clinically heterogeneous, and difficult to summarize with a single neurophysiological endpoint. EEG is attractive for public-data reanalysis because it is inexpensive relative to many imaging modalities, temporally precise, and available in multiple OpenNeuro datasets.<sup>1</sup> Those same advantages can also make EEG findings fragile: scalp recordings are sensitive to artifact, task context, preprocessing decisions, and participant overlap across repeated recordings.<sup>13,14</sup> Public-data EEG findings therefore need explicit pressure-testing before they are interpreted as durable disease signals.
 
-The present manuscript uses a completed, audited D1/D2/D3 analysis package to ask a deliberately conservative question: does a plausible resting EEG aperiodic/spectral candidate in public TBI data remain interpretable after artifact-control, a lower-artifact eyes-closed alpha/IAF sensitivity check, and bounded cross-task stress testing? The purpose is not to build a classifier or to claim clinical readiness. The purpose is to document what remains after a candidate signal is pushed through transparent, source-backed robustness checks.
+This manuscript uses a completed, audited D1/D2/D3 analysis package to ask a deliberately conservative question: does a plausible resting EEG aperiodic/spectral pattern in public TBI data remain interpretable after artifact-control, a lower-artifact eyes-closed alpha/IAF sensitivity check, and bounded cross-task stress testing? The goal is not to build a classifier or to claim clinical readiness. The goal is to show what survives when a plausible finding is tested against common sources of EEG overinterpretation.
 
 The final package supports a cautious answer. The acute mTBI versus control resting signal does not survive broad artifact-controlled FDR. A narrower prior-anchor family remains exploratory. The eyes-closed alpha/IAF branch does not rescue the acute signal. D2 task datasets provide a weak DPX cue-baseline trace, but task-average DPX, visual working memory, and integrated task models do not support robust convergence. Chronic TBI is handled as a separate batch-sensitive context, and ds003490 is used only as a comparator and pipeline rehearsal dataset.
 
-This framing is aligned with Neurotrauma Reports as a transparent null-leaning reproducibility and falsification report. The manuscript emphasizes public-data traceability, artifact sensitivity, and conservative interpretation rather than a positive translational narrative.
+The contribution is therefore a transparent reproducibility and falsification report. Rather than presenting a positive translational story, the manuscript documents how public EEG evidence changes when artifact sensitivity, lower-artifact rest checks, and task-context tests are made visible.
 
 ## Methods
 
 ### Study Design and Scope
 
-This was a retrospective public-data EEG reanalysis using only completed, audited outputs from the final D1/D2/D3 package. No new downloads, extraction, model fitting, raw-data movement, or machine-readable result edits were performed during manuscript drafting. The analysis was designed as a stress test of an initially plausible resting EEG candidate signal in TBI.
+This was a retrospective public-data EEG reanalysis using only completed, audited outputs from the final D1/D2/D3 package. No new downloads, extraction, model fitting, raw-data movement, or machine-readable result edits were performed during manuscript drafting or editorial revision. The analysis was designed as a stress test of an initially plausible resting EEG pattern in TBI.
 
-D1 evaluated resting EEG aperiodic and spectral families in ds003522 under artifact-control branches.<sup>2,6</sup> D3 evaluated a lower-artifact eyes-closed alpha/IAF branch within ds003522.<sup>2</sup> D2 evaluated bounded cross-task support using ds005114 and ds003523.<sup>3,4,7</sup> ds003490 was used only for comparator and pipeline-readiness rehearsal.<sup>5,8</sup> The audit gate and manuscript-readiness gate were required to pass before this draft was generated.
+D1 evaluated resting EEG aperiodic and spectral families in ds003522 under artifact-control branches.<sup>2,6</sup> D3 evaluated a lower-artifact eyes-closed alpha/IAF branch within ds003522.<sup>2</sup> D2 evaluated bounded cross-task support using ds005114 and ds003523.<sup>3,4,7</sup> ds003490 was used only for comparator and pipeline-readiness rehearsal.<sup>5,8</sup> The audit gate and manuscript-readiness gate were required to pass before drafting.
 
 ### Datasets and Participants
 
@@ -44,7 +44,7 @@ The ptp95 branch removed the highest-amplitude 5% of epochs within recording-con
 
 ### D3 Eyes-Closed Alpha/IAF Analysis
 
-D3 tested whether lower-artifact eyes-closed posterior alpha/IAF features would support the acute signal. This branch was especially relevant because the original D1 candidate was strongest in eyes-open frontal, temporal, and global features where non-neural artifact sensitivity was a concern. The generated D3 table did not include a separate aperiodic-adjusted alpha peak endpoint, so alpha interpretation remains limited.
+D3 tested whether lower-artifact eyes-closed posterior alpha/IAF features would support the acute signal. This branch was especially relevant because the original D1 anchor was strongest in eyes-open frontal, temporal, and global features where non-neural artifact sensitivity was a concern. The generated D3 table did not include a separate aperiodic-adjusted alpha peak endpoint, so alpha interpretation remains limited.
 
 ### D2 Bounded Cross-Task Falsification Analysis
 
@@ -76,7 +76,7 @@ All datasets used in the final package had paired EEGLAB files locally verified 
 
 **Figure 1 about here.**
 
-### Original Candidate and Artifact-Control Outcome
+### Original Anchor and Artifact-Control Outcome
 
 The original D1 signal was available locally only as a prose anchor rather than exact per-feature rows. That anchor described eyes-open temporal, frontal, and global aperiodic/spectral differences with acute mTBI absolute Hedges g around 0.80-0.96 and broad-screen FDR below q<0.10. The audit therefore treated the original signal as historical rationale rather than exact reproducible row-level evidence.
 
@@ -122,15 +122,15 @@ The integrated evidence matrix favors a cautious null-leaning interpretation. D1
 
 ### Principal Findings
 
-This public OpenNeuro EEG reanalysis found that an initially plausible resting EEG candidate signal in mTBI became null-leaning after artifact-control and bounded cross-task checks. The most important result is not a positive signal. It is the attenuation and non-convergence pattern: broad D1 artifact-controlled FDR did not survive, D3 eyes-closed alpha/IAF did not rescue the signal, and D2 offered only a weak DPX cue-baseline trace that did not generalize to task-average or integrated task models.
+This public OpenNeuro EEG reanalysis found that initially plausible resting EEG differences in mTBI became null-leaning after artifact-control and bounded cross-task checks. The most important result is the pattern of attenuation and non-convergence: broad D1 artifact-controlled FDR did not survive, D3 eyes-closed alpha/IAF did not rescue the signal, and D2 offered only a weak DPX cue-baseline trace that did not generalize to task-average or integrated task models.
 
 ### Interpretation
 
-The final interpretation is artifact-sensitive and falsification-oriented. The original candidate remained coherent enough to justify auditing, but the audited package does not support strong disease-specific inference. Nominal effect sizes in selected rows remain scientifically interesting, especially because some directions persisted across artifact sensitivity checks, but broad FDR failure and cross-task inconsistency are the dominant interpretive facts.
+The final interpretation is artifact-sensitive and falsification-oriented. The original anchor remained coherent enough to justify auditing, but the audited package does not support strong disease-specific inference. Nominal effect sizes in selected rows remain scientifically useful because they show where future studies might look, but broad FDR failure and cross-task inconsistency are the dominant interpretive facts.
 
 ### Relation to TBI EEG and Aperiodic EEG Literature
 
-The manuscript should be situated within three literatures: EEG studies of mTBI, aperiodic/spectral parameterization methods, and artifact-aware EEG interpretation.<sup>6,7,11,13,14</sup> The present contribution is methodological and transparency-oriented: it shows how a plausible public-data EEG candidate weakens when artifact handling, lower-artifact sensitivity testing, and task-context stress testing are made explicit.
+The manuscript sits at the intersection of mTBI EEG studies, aperiodic/spectral parameterization methods, and artifact-aware EEG interpretation.<sup>6,7,11,13,14</sup> Its contribution is methodological and transparency-oriented: it shows how a plausible public-data EEG finding weakens when artifact handling, lower-artifact sensitivity testing, and task-context stress testing are made explicit.
 
 ### Why Artifact Control Changed Interpretation
 
@@ -146,27 +146,27 @@ The clinical implication is caution. The current public-data package does not su
 
 ### Strengths
 
-Strengths include local raw EEG verification, use of public datasets, explicit identity-overlap handling, conservative FDR interpretation, artifact-branch transparency, D3 sensitivity testing, D2 cross-task stress testing, figure/table source-data manifests, stale-report audit, and claim traceability. The package is unusually explicit about what cannot be claimed.
+Strengths include local raw EEG verification, use of public datasets, explicit identity-overlap handling, conservative FDR interpretation, artifact-branch transparency, D3 sensitivity testing, D2 cross-task stress testing, figure/table source-data manifests, stale-report audit, public repository release, and claim traceability.
 
 ### Limitations
 
-The main limitations are substantial. Exact original Phase 5 per-feature rows were unavailable locally, so the original candidate was available only as a prose anchor. The strict artifact-clean branch was too conservative for group inference. The ptp95 branch is a sensitivity approach rather than a definitive artifact-correction method. D3 lacked aperiodic-adjusted alpha peak metrics in the generated table. D2 overlapped by Original_ID and was not a separate cohort. Chronic TBI was secondary and batch-sensitive. ds003490 was comparator-only.
+The main limitations are important but interpretable. Exact original Phase 5 per-feature rows were unavailable locally, so the original D1 result was treated as a prose anchor. The strict artifact-clean branch was too conservative for group inference. The ptp95 branch is a sensitivity approach rather than definitive artifact correction. D3 lacked aperiodic-adjusted alpha peak metrics in the generated table. D2 overlapped by Original_ID and was not a separate cohort. Chronic TBI was secondary and batch-sensitive. ds003490 was comparator-only.
 
 ### Future Directions
 
-A future study should be prospective and preregistered. It should specify artifact handling before analysis, include eyes-open and eyes-closed endpoints, predefine aperiodic and alpha features, include covariates such as medication, sleep, injury timing, and symptoms, and keep acute and chronic TBI either separate or explicitly modeled. It should also define an independent test strategy before analysis.
+A future study should be prospective and preregistered. It should specify artifact handling before analysis, include eyes-open and eyes-closed endpoints, predefine aperiodic and alpha features, include covariates such as medication, sleep, injury timing, and symptoms, and keep acute and chronic TBI either separate or explicitly modeled. It should also define an external test strategy before analysis.
 
 ## Conclusion
 
-A plausible public resting EEG candidate signal in mTBI did not survive broad artifact-controlled FDR and was not rescued by eyes-closed alpha/IAF or robust cross-task convergence. The strongest contribution is a transparent null-leaning falsification analysis showing why artifact and task-context sensitivity must be foregrounded before stronger TBI EEG claims are considered.
+A plausible public resting EEG pattern in mTBI did not survive broad artifact-controlled FDR and was not rescued by eyes-closed alpha/IAF or robust cross-task convergence. The strongest contribution is a transparent null-leaning falsification analysis showing why artifact and task-context sensitivity must be foregrounded before stronger TBI EEG claims are considered.
 
 ## Data Availability
 
-The analysis used public OpenNeuro datasets ds003522, ds005114, ds003523, and ds003490.<sup>1-5</sup> ds003490 was used only as a comparator and pipeline rehearsal dataset. Derived manuscript artifacts, source-data manifests, figure/table manifests, and reproduction materials are listed in the local final package. A sanitized public repository for code and selected derived manuscript artifacts is listed at: https://github.com/blakepi/openneuro-tbi-eeg-falsification.
+The analysis used public OpenNeuro datasets ds003522, ds005114, ds003523, and ds003490.<sup>1-5</sup> ds003490 was used only as a comparator and pipeline rehearsal dataset. Derived manuscript artifacts, source-data manifests, figure/table manifests, and reproduction materials are listed in the local final package. A sanitized public repository for code and selected derived manuscript artifacts is available at: https://github.com/blakepi/openneuro-tbi-eeg-falsification.
 
 ## Code Availability
 
-Code and selected derived manuscript artifacts are available or being prepared at: https://github.com/blakepi/openneuro-tbi-eeg-falsification. The public repository excludes raw EEG files and local administrative logs. The local reproduction guide documents script order, raw-data verification outputs, and audit gates.
+Code and selected derived manuscript artifacts are publicly available at: https://github.com/blakepi/openneuro-tbi-eeg-falsification. The repository excludes raw EEG files and local administrative logs. A Zenodo DOI is prepared for a later archive step but has not been minted; no archived-release DOI should be cited until a GitHub release is actually archived.
 
 ## Ethics / Public Data Statement
 
@@ -191,10 +191,10 @@ The author acknowledges the original OpenNeuro dataset contributors and the Open
 ## References
 
 1. Markiewicz CJ, Gorgolewski KJ, Feingold F, Blair R, Halchenko YO, Miller E, et al. The OpenNeuro resource for sharing of neuroscience data. eLife. 2021;10:e71774. doi:10.7554/eLife.71774.
-2. Cavanagh JF, Quinn D. EEG: Three-Stim Auditory Oddball and Rest in Acute and Chronic TBI [dataset]. OpenNeuro; version 1.1.0. doi:10.18112/openneuro.ds003522.v1.1.0.
-3. Cavanagh JF. EEG: DPX Cog Ctl Task in Acute Mild TBI [dataset]. OpenNeuro; version 1.0.0. doi:10.18112/openneuro.ds005114.v1.0.0.
-4. Cavanagh JF. EEG: Visual Working Memory in Acute TBI [dataset]. OpenNeuro; version 1.1.0. doi:10.18112/openneuro.ds003523.v1.1.0.
-5. Cavanagh JF. EEG: 3-Stim Auditory Oddball and Rest in Parkinson's [dataset]. OpenNeuro; version 1.1.0. doi:10.18112/openneuro.ds003490.v1.1.0.
+2. Cavanagh JF, Quinn D. EEG: Three-Stim Auditory Oddball and Rest in Acute and Chronic TBI [dataset]. OpenNeuro. 2021. Version 1.1.0. doi:10.18112/openneuro.ds003522.v1.1.0.
+3. Cavanagh JF. EEG: DPX Cog Ctl Task in Acute Mild TBI [dataset]. OpenNeuro. 2024. Version 1.0.0. doi:10.18112/openneuro.ds005114.v1.0.0.
+4. Cavanagh JF. EEG: Visual Working Memory in Acute TBI [dataset]. OpenNeuro. 2021. Version 1.1.0. doi:10.18112/openneuro.ds003523.v1.1.0.
+5. Cavanagh JF. EEG: 3-Stim Auditory Oddball and Rest in Parkinson's [dataset]. OpenNeuro. 2021. Version 1.1.0. doi:10.18112/openneuro.ds003490.v1.1.0.
 6. Cavanagh JF, Wilson JK, Rieger RE, Gill D, Broadway JM, Story Remer JH, et al. ERPs predict symptomatic distress and recovery in sub-acute mild traumatic brain injury. Neuropsychologia. 2019;132:107125. doi:10.1016/j.neuropsychologia.2019.107125.
 7. Cavanagh JF, Rieger RE, Wilson JK, Gill D, Fullerton L, Brandt E, et al. Joint analysis of frontal theta synchrony and white matter following mild traumatic brain injury. Brain Imaging Behav. 2020;14(6):2210-2223. doi:10.1007/s11682-019-00171-y.
 8. Cavanagh JF, Kumar P, Mueller AA, Richardson SP, Mueen A. Diminished EEG habituation to novel events effectively classifies Parkinson's patients. Clin Neurophysiol. 2018;129(2):409-418. doi:10.1016/j.clinph.2017.11.023.
